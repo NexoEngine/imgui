@@ -68,6 +68,10 @@ namespace ImGui {
             colors[ImGuiCol_TabHovered] = ColorConvertU32ToFloat4(Spectrum::BLUE700);
             colors[ImGuiCol_TabDimmed] = ColorConvertU32ToFloat4(Spectrum::GRAY400);
             colors[ImGuiCol_TabDimmedSelected] = ColorConvertU32ToFloat4(Spectrum::BLUE700);
+            colors[ImGuiCol_TextTab] = ColorConvertU32ToFloat4(Spectrum::GRAY800);
+            colors[ImGuiCol_TextTabSelected] = ColorConvertU32ToFloat4(Spectrum::GRAY50);
+            colors[ImGuiCol_TextTabDimmed] = ColorConvertU32ToFloat4(Spectrum::GRAY800);
+            colors[ImGuiCol_TextTabDimmedSelected] = ColorConvertU32ToFloat4(Spectrum::GRAY50);
         }
 
         const unsigned int SourceSansProRegular_compressed_data[149392 / 4] =

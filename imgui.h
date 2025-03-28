@@ -1745,6 +1745,11 @@ enum ImGuiCol_
     ImGuiCol_NavWindowingHighlight, // Highlight window when using CTRL+TAB
     ImGuiCol_NavWindowingDimBg,     // Darken/colorize entire screen behind the CTRL+TAB window list, when active
     ImGuiCol_ModalWindowDimBg,      // Darken/colorize entire screen behind a modal window, when one is active
+    ImGuiCol_TextTab,               // Tab text color when tab-bar is focused & tab is unselected
+    ImGuiCol_TextTabHovered,        // Tab text color when tab-bar is focused & tab is hovered
+    ImGuiCol_TextTabSelected,       // Tab text color when tab-bar is focused & tab is selected
+    ImGuiCol_TextTabDimmed,         // Tab text color when tab-bar is unfocused & tab is unselected
+    ImGuiCol_TextTabDimmedSelected, // Tab text color when tab-bar is unfocused & tab is selected
     ImGuiCol_COUNT,
 
 #ifndef IMGUI_DISABLE_OBSOLETE_FUNCTIONS
